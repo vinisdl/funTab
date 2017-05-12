@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Funy Extession Tab",
+  "version": "1.0",
+  "permissions": ["https://api-jotapoeam.herokuapp.com/poems/1/random"],
+  "chrome_url_overrides" : {
+    "newtab": "main.html"
+    }
+}
